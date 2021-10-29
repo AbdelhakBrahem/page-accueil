@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f7f7f7;
+}
+
+.heading {
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: left;
+}
+
+.welcome {
+  background-color: #00ae81;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  min-height: 50px;
+  padding: 20px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+h5 {
+  color: #ffffff;
+}
+h6 {
+  color: #00ae81;
+}
+
+.news {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 250px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.list {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 250px;
+  padding: 15px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.add-btn {
+  background-color: #ffffff;
+  padding: 5px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #00ae81;
+  border-radius: 6px;
+  border: 1.5px solid #00ae81;
+  font-size: 0.625rem;
+}
+
+.add-btn:hover {
+  background-color: #c3dfd7;
+}
+
+.carousel {
+  height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  height: 250px;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(32, 32, 32, 0.555) 90%
+  );
+  width: 100%;
+  height: 9em;
+}
+
+.carousel-caption {
+  z-index: 2;
+}
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+*[class*="fontawesome-"]:before {
+  font-family: "FontAwesome", sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+.calendar a {
+  text-decoration: none;
+}
+
+.calendar h2 {
+  font-size: 0.625rem;
+  line-height: 1.25em;
+  margin: 0.25em 0;
+}
+
+.calendar h3 {
+  font-size: 0.5rem;
+  line-height: 1em;
+  margin: 0.33em 0;
+}
+
+.calendar table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.cal {
+  position: absolute;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- CALENDAR ---------- */
+
+.calendar {
+  text-align: center;
+}
+
+.calendar header {
+  position: relative;
+}
+
+.calendar h2 {
+  text-transform: uppercase;
+}
+
+.calendar thead {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.calendar tbody {
+  color: #7c8a95;
+}
+
+.calendar tbody td:hover {
+  border: 2px solid #00ae81;
+}
+
+.calendar td {
+  border: 2px solid transparent;
+  border-radius: 15px;
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  width: 3em;
+}
+
+.calendar .prev-month,
+.calendar .next-month {
+  color: #cbd1d2;
+}
+
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
+  border: 2px solid #cbd1d2;
+}
+
+.current-day {
+  background: #00ae81;
+  color: #f9f9f9;
+}
+
+.event {
+  cursor: pointer;
+  position: relative;
+}
+
+.event.current-day:after {
+  background: #f9f9f9;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+  background: #cbd1d2;
+  color: #f9f9f9;
+}
+
+.btn-prev {
+  left: 6em;
+}
+
+.btn-next {
+  right: 6em;
+}
